@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Run logs
+*.log
+
+# Smoke-test outputs and the archived first round (superseded by results/)
+results/quick_*
+results_v1/
+
+# Duplicate of results/ (same .npy files, plus the charts kept below)
+results_modal/*.npy
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets (Modal tokens live in ~/.modal.toml, but just in case)
+.env
+*.toml

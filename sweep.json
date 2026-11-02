@@ -1,0 +1,190 @@
+[
+ {
+  "env": "CartPole-v1",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0001,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "CartPole-v1",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0001,
+   "ac_lr_v": 0.003
+  }
+ },
+ {
+  "env": "CartPole-v1",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "CartPole-v1",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.003
+  }
+ },
+ {
+  "env": "Acrobot-v1",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0001,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "Acrobot-v1",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0001,
+   "ac_lr_v": 0.003
+  }
+ },
+ {
+  "env": "Acrobot-v1",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "Acrobot-v1",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.003
+  }
+ },
+ {
+  "env": "InvertedPendulum-v5",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0001,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "InvertedPendulum-v5",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0001,
+   "ac_lr_v": 0.003
+  }
+ },
+ {
+  "env": "InvertedPendulum-v5",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "InvertedPendulum-v5",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.003
+  }
+ },
+ {
+  "env": "Reacher-v5",
+  "algo": "REINFORCE",
+  "cfg": {
+   "episodes": 2000,
+   "gamma": 0.99,
+   "lr_pi": 0.001,
+   "lr_v": 0.003,
+   "hidden": 64,
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "Reacher-v5",
+  "algo": "REINFORCE with baseline",
+  "cfg": {
+   "episodes": 2000,
+   "gamma": 0.99,
+   "lr_pi": 0.001,
+   "lr_v": 0.003,
+   "hidden": 64,
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "Reacher-v5",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "episodes": 2000,
+   "gamma": 0.99,
+   "lr_pi": 0.001,
+   "lr_v": 0.003,
+   "hidden": 64,
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "InvertedDoublePendulum-v5",
+  "algo": "REINFORCE",
+  "cfg": {
+   "episodes": 1000,
+   "gamma": 0.99,
+   "lr_pi": 0.001,
+   "lr_v": 0.003,
+   "hidden": 64,
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "InvertedDoublePendulum-v5",
+  "algo": "REINFORCE with baseline",
+  "cfg": {
+   "episodes": 1000,
+   "gamma": 0.99,
+   "lr_pi": 0.001,
+   "lr_v": 0.003,
+   "hidden": 64,
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "InvertedDoublePendulum-v5",
+  "algo": "Actor-Critic",
+  "cfg": {
+   "episodes": 1000,
+   "gamma": 0.99,
+   "lr_pi": 0.001,
+   "lr_v": 0.003,
+   "hidden": 64,
+   "ac_lr_pi": 0.0003,
+   "ac_lr_v": 0.001
+  }
+ },
+ {
+  "env": "InvertedPendulum-v5",
+  "algo": "REINFORCE",
+  "cfg": {
+   "lr_pi": 0.003
+  }
+ },
+ {
+  "env": "InvertedPendulum-v5",
+  "algo": "REINFORCE with baseline",
+  "cfg": {
+   "lr_pi": 0.003
+  }
+ }
+]
